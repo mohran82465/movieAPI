@@ -10,7 +10,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "SET NODE_ENV=development&nodemon server.js",
     "prod": "SET NODE_ENV=production&nodemon server.js",
-    "start": "SET NODE_ENV=production&nodemon server.js"
+    "start": "SET NODE_ENV=production&nodemon server.js",
+    "build": "SET NODE_ENV=production&nodemon server.js",
+    "vercel-build": "SET NODE_ENV=production&nodemon server.js"
   },
   "dependencies": {
     "bcryptjs": "^3.0.2",
